@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--
+    "Candy Mirror Ninja" est un jeu créé en mai 2014 par Aurélien Picolet.
+    "Candy Mirror Ninja" is a game created in May 2014 by Aurélien Picolet.
+-->
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="candy_mirror_ninja.css" />
+		<style>
+                    
+                    /* Removes Mobile Highlight */ *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+                    
+                    @font-face {
+                        font-family: 'cmn_webfont';
+                        src: url('cmn_webfont.eot');
+                        src: url('cmn_webfont.eot?#iefix') format('embedded-opentype'),
+                             url('cmn_webfont.woff') format('woff'),
+                             url('cmn_webfont.ttf') format('truetype'),
+                             url('cmn_webfont.svg#cmn_webfont') format('svg');
+                        font-weight: normal;
+                        font-style: normal;
+
+                    }
+                
+                </style>
+		<title>Candy Mirror Ninja - Aurélien Picolet</title>
+		<script src="phaser.min.js"></script>
+	</head>
+ 
+	<body>
+                <p id="fontTrick">loading font</p>
+		<div id="game"></div>
+		<script type="text/javascript">
+			var CMN = {};
+			var game;
+			CMN.levels = [  'level1', 'level2', 'level3', 'level4', 'level5', 'level6', 'level7', 'level8',
+                                        'level9', 'level10', 'level11', 'level12', 'level13', 'level14', 'level15', 'level16',
+                                        'level17', 'level18', 'level19', 'level20','level21', 'level22', 'level23', 'level24'];
+                        CMN.language = "EN";
+                        CMN.currentLevel = 1;
+			
+			window.onload = function() {
+
+				game = new Phaser.Game(800, 480, Phaser.WEBGL, 'game', null, false, false);
+				
+				game.state.add('boot', CMN.Boot);
+				game.state.add('preloader', CMN.Preloader);
+				game.state.add('menu', CMN.Menu);
+				game.state.add('level1', CMN.Level1);
+				game.state.add('level2', CMN.Level2);
+				game.state.add('level3', CMN.Level3);
+				game.state.add('level4', CMN.Level4);
+				game.state.add('level5', CMN.Level5);
+				game.state.add('level6', CMN.Level6);
+				game.state.add('level7', CMN.Level7);
+				game.state.add('level8', CMN.Level8);
+				game.state.add('level9', CMN.Level9);
+				game.state.add('level10', CMN.Level10);
+				game.state.add('level10', CMN.Level10);
+				game.state.add('level11', CMN.Level11);
+				game.state.add('level12', CMN.Level12);
+				game.state.add('level13', CMN.Level13);
+				game.state.add('level14', CMN.Level14);
+				game.state.add('level15', CMN.Level15);
+				game.state.add('level16', CMN.Level16);
+				game.state.add('level17', CMN.Level17);
+				game.state.add('level18', CMN.Level18);
+				game.state.add('level19', CMN.Level19);
+				game.state.add('level20', CMN.Level20);
+				game.state.add('level21', CMN.Level21);
+				game.state.add('level22', CMN.Level22);
+				game.state.add('level23', CMN.Level23);
+				game.state.add('level24', CMN.Level24);
+
+				game.state.start('boot');
+
+			};
+
+		</script>
+		<script src="CMN_game.js"></script>
+		<script src="CMN_boot.js"></script>
+		<script src="CMN_preloader.js"></script>
+		<script src="CMN_menu.js"></script>
+		<script src="CMN_level1.js"></script>
+		<script src="CMN_level2.js"></script>
+		<script src="CMN_level3.js"></script>
+		<script src="CMN_level4.js"></script>
+		<script src="CMN_level5.js"></script>
+		<script src="CMN_level6.js"></script>
+		<script src="CMN_level7.js"></script>
+		<script src="CMN_level8.js"></script>
+		<script src="CMN_level9.js"></script>
+		<script src="CMN_level10.js"></script>
+		<script src="CMN_level11.js"></script>
+		<script src="CMN_level12.js"></script>
+		<script src="CMN_level13.js"></script>
+		<script src="CMN_level14.js"></script>
+		<script src="CMN_level15.js"></script>
+		<script src="CMN_level16.js"></script>
+		<script src="CMN_level17.js"></script>
+		<script src="CMN_level18.js"></script>
+		<script src="CMN_level19.js"></script>
+		<script src="CMN_level20.js"></script>
+		<script src="CMN_level21.js"></script>
+		<script src="CMN_level22.js"></script>
+		<script src="CMN_level23.js"></script>
+		<script src="CMN_level24.js"></script>
+
+	</body>
+</html>
