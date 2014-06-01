@@ -8,12 +8,12 @@ Candy Mirror Ninja is a game based on the themes of the Global Game Jam 2014 and
 
 It was made with [Phaser](http://phaser.io/) and **needs WebGL** to work.
 
-- You play a Ninja and you have to *collect the Candy* in each level.
+- You play a Ninja and you have to **collect the Candy** in each level.
 - **BUT all the walls in the levels are made of mirrors, you can only see the images of things on the mirrors...**
 - Learn to play with this particularity in mind.
 - In some levels, the King is present because he wants the Candy for his own. He shoots avocados ("avocado" in French is also the name for "lawyer") that can kill you.
 - The closer you get to the Candy, the faster the King shoots.
-- In the last levels, you can get a power allowing you to fire a laser that can reflect on the mirrors and destroy everything it meets.
+- In the last levels, you can get a power allowing you to fire a **laser that can reflect on the mirrors** and destroy everything it meets.
 
 ##Controls
 
@@ -28,9 +28,9 @@ The game needs WebGL to work. So it doesn't work with Internet Explorer yet. The
 
 ##Screenshots
 
-![Candy Mirror Ninja Screenshot 1](candy_mirror_ninja_screenshot_2_800x480.png)
+![Candy Mirror Ninja Screenshot 1](screenshots/candy_mirror_ninja_screenshot_2_800x480.png)
 
-![Candy Mirror Ninja Screenshot 2](candy_mirror_ninja_screenshot_3_800x480.png)
+![Candy Mirror Ninja Screenshot 2](screenshots/candy_mirror_ninja_screenshot_3_800x480.png)
 
 ##Credits
 
